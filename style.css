@@ -28,8 +28,9 @@ section {
     font-weight: 600
 }
 
-.align-select {
-    align-items: flex-end;
+.check-acep{
+position: relative;
+left: 3.7em;
 }
 
 .btn-border-bottom {
@@ -52,10 +53,23 @@ section {
     font-weight: 400;
 }
 
-
-
-
 form{
     width: 50vw;
 }
 
+.sobre{
+    margin-top: 1em;
+}
+
+.form-check-input:checked {
+    background-color: #000;
+    border-color: #000;
+}
+
+h5{
+    margin-bottom: 1em;
+}
+
+label {
+
+}

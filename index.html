@@ -40,8 +40,8 @@
         </div>
 
         <div class="container mt-5">
-            <form>
-                <h6 class="mb-2">Datos de registro</h6>
+            <form class="col-md-9 offset-md-2">
+                <h5 class="">Datos de registro</h5>
                 <div class="row">
                     <div class="form-group col-md-6">
                         <input type="text" class="form-control" id="nombre" placeholder="* Nombre" required>
@@ -51,10 +51,9 @@
                         <input type="text" class="form-control" id="apellido" placeholder="* Apellido" required>
                     </div>
                 </div>
-
                 <div class="row mt-4 align-select">
-                    <div class="col-md-3">
-                        <label for="tipoDocumento">Tipo de documento</label>
+                    <div class="col-md-6">
+                        <p>Tipo de documento </p>
                         <select class="form-select" id="tipoDocumento" aria-label="Default select example">
                             <option selected></option>
                             <option value="1">DNI</option>
@@ -62,16 +61,23 @@
                             <option value="3">LE</option>
                         </select>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-6">
                         <input type="text" class="form-control" id="dni" placeholder="Número" required>
                     </div>
+
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" id="nombre" placeholder="* Dirección" required>
+                    </div>
+
                     <div class="col-md-6">
                         <input type="tel" class="form-control" id="telefono"
                             placeholder="* Teléfono (cod. área + número)" required>
                     </div>
                 </div>
 
-                <h6 class="mb-2">Sobre tu cuenta</h6>
+                <h5 class="sobre">Sobre tu cuenta</h5>
                 <div class="row mt-4">
                     <div class="form-group col-md-6">
                         <input type="email" class="form-control" id="email" placeholder="* Email" required>
@@ -97,9 +103,10 @@
                 </div>
                 <div class="container mt-5">
                     <div class="row">
-                        <div class="col-md-9 offset-md-3">
+                        <div class="col-md-9 offset-md-1">
                             <div class="form-check col-md-12 text-center">
-                                <input class="form-check-input check-acep" type="checkbox" value="" id="flexCheckDefault">
+                                <input class="form-check-input check-acep" type="checkbox" value=""
+                                    id="flexCheckDefault">
                                 <label class="form-check-label checkbox-label" for="flexCheckDefault">
                                     <b>Acepto las <u>Políticas de Privacidad</u> y <u>Términos y Condiciones</u></b>
                                 </label>
@@ -112,7 +119,8 @@
                                 </div>
                                 <div class="col-md-4 d-flex align-items-center justify-content-center">
                                     <input class="form-check-input" type="checkbox" value="" id="flexCheckWhatsapp">
-                                    <label class="form-check-label checkbox-label" for="flexCheckWhatsapp">Whatsapp</label>
+                                    <label class="form-check-label checkbox-label"
+                                        for="flexCheckWhatsapp">Whatsapp</label>
                                 </div>
                                 <div class="col-md-4 d-flex align-items-center justify-content-center">
                                     <input class="form-check-input" type="checkbox" value="" id="flexCheckSMS">
