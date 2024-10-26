@@ -52,13 +52,10 @@ section {
     font-weight: 400;
 }
 
-.check-acep {
-    position: relative;
-    left: 18em;
+
+
+
+form{
+    width: 50vw;
 }
 
-.checksRed{
-    width: 32vw;
-    position: relative;
-    left: 20em;
-}
