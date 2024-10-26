@@ -28,10 +28,6 @@ section {
     font-weight: 600
 }
 
-.check-acep{
-position: relative;
-left: 3.7em;
-}
 
 .btn-border-bottom {
     border: none;
@@ -70,6 +66,14 @@ h5{
     margin-bottom: 1em;
 }
 
-label {
-
+.form-control[type="text"],
+.form-control[type="email"],
+.form-control[type="password"],
+.form-control[type="tel"],
+.form-control[type="number"],
+.form-select {
+    border: none;
+    border-bottom: 1px solid #ccc; /* Color gris */
+    border-radius: 0;
+    box-shadow: none;
 }
