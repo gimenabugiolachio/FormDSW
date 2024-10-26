@@ -73,7 +73,18 @@ h5{
 .form-control[type="number"],
 .form-select {
     border: none;
-    border-bottom: 1px solid #ccc; /* Color gris */
+    border-bottom: 1.5px solid #0000002c;
     border-radius: 0;
+    box-shadow: none;
+}
+
+.form-control[type="text"]:focus,
+.form-control[type="email"]:focus,
+.form-control[type="password"]:focus,
+.form-control[type="tel"]:focus,
+.form-control[type="number"]:focus,
+.form-select:focus {
+    border-bottom-color: #4E2973; 
+    outline: none;
     box-shadow: none;
 }
